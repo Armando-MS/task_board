@@ -27,6 +27,21 @@ El objetivo principal es demostrar el uso de Flutter junto con un gestor de esta
 
 ---
 
+## Indicaciones de uso
+
+- Para **agregar una nueva tarea**, presione el botón con el ícono **“+”** ubicado en la parte inferior de la pantalla principal.
+- Al crear una tarea, la aplicación solicitará ingresar un **título** (obligatorio) y una **descripción** corta (opcional).
+- Una vez guardada, la tarea se mostrará en la lista principal.
+- En la parte superior de la pantalla se encuentra el **filtro de tareas**, que permite visualizar:
+  - Todas las tareas
+  - Tareas pendientes
+  - Tareas finalizadas
+- Cada tarea cuenta con un **checkbox**, el cual permite marcarla como **finalizada** o devolverla a estado **pendiente**.
+- Al **presionar una tarea**, se abrirá la pantalla de edición, donde se podrán modificar el título y la descripción.
+- Para **eliminar una tarea**, deslice la tarea hacia un lado de la pantalla.  
+  Al realizar este gesto, se mostrará una animación junto con el ícono de eliminación, y la tarea será removida de la lista.
+- Todos los cambios realizados se guardan automáticamente, por lo que las tareas se conservan incluso al cerrar la aplicación.
+
 ## Arquitectura del proyecto
 
 El proyecto está organizado por capas para facilitar el mantenimiento y la escalabilidad:
