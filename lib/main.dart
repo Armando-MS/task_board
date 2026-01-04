@@ -6,6 +6,8 @@ import 'bloc/info_user_bloc.dart';
 import 'models/info_task.dart';
 import 'models/info_user.dart';
 import 'screens/main_screen/main_screen.dart';
+import 'package:task_board/screens/products/product_screen.dart';
+import 'package:task_board/screens/user_screen/user_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,8 +27,8 @@ class MyApp extends StatelessWidget {
       create: (_) => InfoUserBloc(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'TaskBoard',
-        home: const MainScreen(),
+        title: 'API',
+        home: const UserScreen(),
       ),
     );
   }
